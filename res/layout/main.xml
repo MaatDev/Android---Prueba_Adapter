@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    >
+	<ListView 
+		android:id="@+id/lv_img"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_weight="0.25"
+	/>
+	
+	<ListView 
+		android:id="@+id/lv_check"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_weight="0.25"
+	/>
+	
+	<ListView 
+		android:id="@+id/lv_text"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_weight="0.25"
+	/>
+	<ListView 
+		android:id="@+id/lv_btn"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_weight="0.25"
+	/>
+
+</LinearLayout>
